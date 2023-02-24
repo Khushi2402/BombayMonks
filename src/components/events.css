@@ -1,0 +1,8 @@
+.booknow-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10rem;
+    margin-top: 23rem;
+    width: 12rem;
+    margin-bottom: 1.2rem;
+}
