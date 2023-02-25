@@ -24,9 +24,10 @@ const Events = () => {
             <h2 className='text-lg md:pt-1 grid justify-items-start font-medium'>Wednesday, 9PM</h2>
             <h2 className='text-lg text-left md:pt-1 font-medium'>East Side, Fifth Avenue, Manhattan, NewYork</h2>
             <div className='relative pt-6'>
-              <button className='md:absolute md:top-2 md:-right-24 '>Book Now</button>
+              <button className='md:absolute md:top-2 md:-right-24'>
+                <a href="https://wa.me/9987562803?text=I%20wanna%20book%20a%20ticket%20for%20the%20event">Book Now</a>
+              </button>
             </div>
-            
           </div>
         </div>
       </div>

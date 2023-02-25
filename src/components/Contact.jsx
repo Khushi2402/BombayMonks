@@ -44,7 +44,7 @@ const Contact = () => {
       <div className='grid md:grid-cols-3 divide-x divide-black pt-10'>
         <div>
             <h1 className='text-xl font-normal pb-2'>PHONE</h1>
-            <p className='font-bold pb-6'>+91 9777908891 </p>
+            <p className='font-bold pb-6'>+91 9777908891 <br/> +91 9987562803</p>
         </div>
         <div>
             <h1 className='text-xl font-normal pb-2'>E-MAIL</h1>
