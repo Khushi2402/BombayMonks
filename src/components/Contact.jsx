@@ -20,7 +20,7 @@ const Contact = () => {
   const submitData = async(event) => {
     event.preventDefault();
     const { email } = userData;
-    const res = fetch('https://fiesta-d0c19-default-rtdb.firebaseio.com/userDataRecords.json', 
+    const res = fetch('https://bombay-monks-8bccc-default-rtdb.firebaseio.com/userDataRecords.json', 
     {
       method: "POST",
       headers: {
@@ -48,7 +48,7 @@ const Contact = () => {
         </div>
         <div>
             <h1 className='text-xl font-normal pb-2'>E-MAIL</h1>
-            <p className='font-bold pb-6'>bombaymonk@gmail.com</p>
+            <p className='font-bold pb-6'>bombaymonks@gmail.com</p>
         </div>
         <div>
             <h1 className='text-xl font-normal pb-2'>SOCIALS</h1>
