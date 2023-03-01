@@ -53,10 +53,10 @@ const Contact = () => {
         <div>
             <h1 className='text-xl font-normal pb-2'>SOCIALS</h1>
             <div className=' flex justify-center'>
-              <a href='https://instagram.com/bombaymonksentertainment?igshid=YmMyMTA2M2Y='>
+              <a href='https://instagram.com/bombaymonks?igshid=NTdlMDg3MTY='>
                 <BsInstagram className='px-2 w-10 h-10 cursor-pointer'/>
               </a>
-              <a href='https://wa.me/9777908891?text='>
+              <a href='https://wa.me/9987562803?text='>
                 <BsWhatsapp className='px-2 w-10 h-10 cursor-pointer'/>
               </a>
             </div>
