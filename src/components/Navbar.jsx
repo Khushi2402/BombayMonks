@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import { AiOutlineClose } from 'react-icons/ai'
 import { FiMenu } from 'react-icons/fi'
-import fr from '../fr.svg';
 import bm from '../bm.svg';
 import { Link } from 'react-scroll';
 
@@ -32,20 +31,11 @@ const Navbar = () => {
           </Link>
         </li>
         <li className='hover:underline'>
-          <Link to='gallery' smooth={true} duration={500}>
-            Gallery
-          </Link>
-        </li>
-      </ul>
-      <div className='hidden md:flex  hover:bg-transparent'>
-        <ul>
-        <li className='hover:underline'>
           <Link to='contact' smooth={true} duration={500}>
             Contact Us
           </Link>
         </li>
-        </ul>
-      </div>
+      </ul>
 
       {/* Hamburger */}
       <div onClick={handleNav} className='md:hidden z-10'>
@@ -63,11 +53,6 @@ const Navbar = () => {
             <li className='border-b hover:underline'>
               <Link to='events' smooth={true} duration={500}>
                 Events
-              </Link>
-            </li>
-            <li className='border-b hover:underline'>
-              <Link to='gallery' smooth={true} duration={500}>
-                Gallery
               </Link>
             </li>
             <li className='border-b hover:underline'>
