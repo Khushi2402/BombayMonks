@@ -10,7 +10,7 @@ const Events = () => {
     <div name='events'>
       <h1 className='text-2xl pb-10'>Events</h1>
 
-      <div class="max-w-md sm:mx-4 md:mx-auto bg-slate-100 rounded-xl shadow-md overflow-hidden md:max-w-4xl">
+      <div class="max-w-md sm:mx-4 md:mx-auto bg-fuchsia-100 rounded-xl shadow-md overflow-hidden md:max-w-4xl">
         <div class="md:flex">
           <div class="md:shrink-0">
             <img class="h-auto w-full object-cover md:h-auto md:w-76 rounded-xl" src={ev} alt="Modern building architecture"/>
